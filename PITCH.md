@@ -1,42 +1,31 @@
-Barber Studio Website Pitch
-
 Hi Neshi,
 
-I put together a website for Barber Studio because I noticed you don’t have one yet. I’m building my portfolio and I wanted to practise with a real barber shop, so I used Barber Studio as the example.
+I noticed Barber Studio doesn’t have a website yet, so I built one as a demo while I’m building my portfolio. The idea was to make it easy for people to find you online, see what you offer, and book quickly from their phones.
 
-The idea was simple: make it easy for people to find you, see what you do, and book quickly from their phones.
+What the website includes:
+	•	Clean, modern design that looks good on mobile and desktop
+	•	Services section so people can see what you do without asking
+	•	One-tap WhatsApp booking button (opens a ready message)
+	•	Reviews section to build trust for new clients
+	•	Your hours, address and contact details in one place
+	•	Optional contact form + Google Maps
 
-What’s on the website
-	•	A clean homepage that looks professional
-	•	Services section (so people stop asking the same questions)
-	•	Reviews (to build trust for new clients)
-	•	Your address, hours and contact details in one place
-	•	Quick booking that opens WhatsApp with a ready message
-	•	A contact form for people who prefer typing a message
+Why it helps:
+Most people search “barber near me” and decide fast. A website makes you look more professional, answers the common questions quickly, and pushes people to book on WhatsApp instead of leaving.
 
-Why this helps you
+If you like it, we can keep it close to what I made or adjust it to your exact style (photos, wording, colours, extra sections, anything).
 
-A lot of people choose a barber fast. If they search “barber near me” and they only see a Google listing with limited info, they usually move on. A website makes you look more serious, and it helps customers decide quicker.
+Pricing options:
+Basic – R3,500
+A full professional website like the demo: mobile-friendly, services, WhatsApp booking, and basic SEO setup.
 
-It also saves you time because people can see the basics before they call or message:
-services, hours, location, and what to do to book.
+Standard – R5,500
+Everything in Basic, plus a contact form that sends you emails, Google Maps added, and I handle updates/changes for 3 months (text, photos, services updates).
 
-How someone would use it
+Premium – R8,500
+Everything in Standard, plus help setting up/improving your Google Business Profile for better visibility, social media links, and updates for 6 months. Premium includes the first 3 months hosting free.
 
-Someone finds Barber Studio on Google or gets your link on WhatsApp/Instagram.
-They open the site, see the services, and tap “Book on WhatsApp”.
-That’s it. They’re already messaging you.
-
-If you like it
-
-This website is currently a template I made as a starting point. If you’re interested, we can:
-	•	keep this one and just replace the photos/text with your real content
-	•	or build a more custom version based on exactly what you want (your style, your photos, your wording, anything)
-
-Pricing (fair and simple)
-
-If you want to buy the template and I set it up for you (domain + hosting + your real info added), I can do it for R1,500 once-off.
-
-If you want a more custom version with proper photos, extra pages, and a stronger “brand look”, we can do it from R3,500 depending on what you want.
+Hosting:
+R150/month (keeps the website online).
 
 If you want, I can send you the link to view it on your phone and you can tell me what you think.
