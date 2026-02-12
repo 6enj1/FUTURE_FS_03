@@ -1,88 +1,42 @@
-# Barber Studio — Your New Website
+Barber Studio Website Pitch
 
 Hi Neshi,
 
-I built a professional website for Barber Studio that makes it easy for customers to find you, see your services, and book an appointment — all from their phone.
+I put together a website for Barber Studio because I noticed you don’t have one yet. I’m building my portfolio and I wanted to practise with a real barber shop, so I used Barber Studio as the example.
 
----
+The idea was simple: make it easy for people to find you, see what you do, and book quickly from their phones.
 
-## What I Built
+What’s on the website
+	•	A clean homepage that looks professional
+	•	Services section (so people stop asking the same questions)
+	•	Reviews (to build trust for new clients)
+	•	Your address, hours and contact details in one place
+	•	Quick booking that opens WhatsApp with a ready message
+	•	A contact form for people who prefer typing a message
 
-A complete, mobile-friendly website for Barber Studio that includes:
+Why this helps you
 
-- Your full service menu with pricing
-- A "Book on WhatsApp" button that sends you a prefilled message
-- Real client reviews from Google
-- Your location, hours, and contact details
-- A contact form for customers who prefer email
+A lot of people choose a barber fast. If they search “barber near me” and they only see a Google listing with limited info, they usually move on. A website makes you look more serious, and it helps customers decide quicker.
 
----
+It also saves you time because people can see the basics before they call or message:
+services, hours, location, and what to do to book.
 
-## Problems This Solves
+How someone would use it
 
-1. **Customers can't find your prices online.** Your full service menu is now clearly listed with pricing, so customers know exactly what to expect before they walk in.
+Someone finds Barber Studio on Google or gets your link on WhatsApp/Instagram.
+They open the site, see the services, and tap “Book on WhatsApp”.
+That’s it. They’re already messaging you.
 
-2. **Booking takes too many steps.** The website has a one-tap WhatsApp button that opens a chat with a prefilled booking message — no back and forth needed.
+If you like it
 
-3. **No online presence beyond Google Maps.** A dedicated website builds trust and helps you appear higher in Google search results when people search for "barber shop near me" or "barber in Sandton."
+This website is currently a template I made as a starting point. If you’re interested, we can:
+	•	keep this one and just replace the photos/text with your real content
+	•	or build a more custom version based on exactly what you want (your style, your photos, your wording, anything)
 
----
+Pricing (fair and simple)
 
-## What This Improves
+If you want to buy the template and I set it up for you (domain + hosting + your real info added), I can do it for R1,500 once-off.
 
-- **Trust and credibility** — A professional website with reviews and clear pricing makes new customers confident in choosing you.
-- **More bookings** — WhatsApp booking from the website means fewer missed opportunities. Customers can book anytime, even when you're busy cutting.
-- **Google visibility** — The site is built with local SEO, so people searching for barbers in Illovo or Sandton are more likely to find you.
-- **Better first impression** — When someone gets your link or finds you on Google, they see a polished, professional business.
-- **Clear communication** — Hours, location, services, and pricing are all in one place. Fewer repetitive questions.
+If you want a more custom version with proper photos, extra pages, and a stronger “brand look”, we can do it from R3,500 depending on what you want.
 
----
-
-## How It Helps Growth
-
-Every visitor to your website sees a clear call to action: Call, WhatsApp, or Book. The easier you make it for people to reach out, the more appointments you get.
-
-Customers who find you on Google can now go from search result to WhatsApp booking in under 10 seconds.
-
----
-
-## Demo Walkthrough
-
-Here's what to look at when you open the site:
-
-1. **Hero section** — Your storefront photo, star rating, and two buttons: "WhatsApp to Book" and "Call Now"
-2. **Services** — Scroll down to see the full price list with "Full Combo" highlighted
-3. **Reviews** — Real quotes from your Google reviews
-4. **Quick Booking** — Choose a service, day, and time, then tap "Send on WhatsApp" to see the prefilled message
-5. **Contact form** — For customers who want to send a message by email
-6. **Location & Hours** — Map and your weekly schedule, with today highlighted
-
-Try it on your phone — the bottom bar gives quick access to Call, WhatsApp, and Book from any part of the page.
-
----
-
-## Next Steps
-
-To get the most out of this website:
-
-1. **Replace placeholder images** — Add real photos of your work, the shop interior, and yourself. Good photos make a big difference.
-2. **Update your Google Business Profile** — Add the website URL to your Google listing. This connects your online presence and boosts search ranking.
-3. **Share the link** — Add the website URL to your WhatsApp bio, Instagram, and any business cards.
-4. **Collect more reviews** — Ask happy clients to leave a Google review. More reviews = higher ranking and more trust.
-5. **Consider promotions** — The website can be updated with seasonal offers, referral discounts, or new services anytime.
-
----
-
-## Pricing Options
-
-| | Basic | Standard | Premium |
-|---|---|---|---|
-| **What's included** | Website design & development, mobile-friendly, WhatsApp booking, SEO setup | Everything in Basic + contact form with email, Google Maps, ongoing updates for 3 months | Everything in Standard + Google Business Profile setup, social media links, 6 months of updates |
-| **Price** | R3,500 | R5,500 | R8,500 |
-| **Hosting** | R150/month | R150/month | R150/month (first 3 months free) |
-
-All options include the professional website you see in this demo. The difference is in the level of ongoing support and extras.
-
----
-
-Looking forward to your thoughts. Let me know if you have any questions.
+If you want, I can send you the link to view it on your phone and you can tell me what you think.
