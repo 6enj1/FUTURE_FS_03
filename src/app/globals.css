@@ -1,26 +1,109 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-ink: #100F0F;
+  --color-charcoal: #27282B;
+  --color-slate: #494A50;
+  --color-steel: #707276;
+  --color-mist: #E0E2E2;
+  --color-silver: #B9BABB;
+  --color-barber-red: #BF3E4A;
+  --color-barber-blue: #152D67;
+  --color-soft-blue: #374D8A;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000000;
+  color: var(--color-mist);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--color-barber-red);
+  color: white;
+}
+
+/* Hero + Services background — same as body to eliminate seams */
+.hero-bg {
+  background-color: #000000;
+}
+
+/* Feathered elliptical mask — dissolves video edges into background */
+.hero-video-mask {
+  -webkit-mask-image: radial-gradient(
+    ellipse 60% 55% at 50% 45%,
+    black 30%,
+    transparent 70%
+  );
+  mask-image: radial-gradient(
+    ellipse 60% 55% at 50% 45%,
+    black 30%,
+    transparent 70%
+  );
+}
+
+/* Dark wash for text readability — no edge shadows needed, mask handles fade */
+.hero-vignette {
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.4));
+}
+
+/* Hero headline responsive sizing */
+.hero-headline {
+  font-size: clamp(3.5rem, 10vw, 9rem);
+}
+
+/* Reduced motion: pause video, show poster instead */
+@media (prefers-reduced-motion: reduce) {
+  .hero-video {
+    display: none;
+  }
+}
+
+/* Services showcase card */
+.services-card {
+  background-color: #0a0a0a;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.04),
+    0 20px 60px -12px rgba(0, 0, 0, 0.7);
+}
+
+/* Mobile: taller aspect ratio */
+@media (max-width: 639px) {
+  .services-card {
+    aspect-ratio: 4 / 5 !important;
+  }
+}
+
+/* Services vignette — heavy bottom + all edges fade to black */
+.services-vignette {
+  background:
+    linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, transparent 50%),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 0%, transparent 35%),
+    linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, transparent 30%),
+    linear-gradient(to left, rgba(0, 0, 0, 0.5) 0%, transparent 30%),
+    radial-gradient(ellipse at center, transparent 40%, rgba(0, 0, 0, 0.55) 100%);
+}
+
+/* Barber stripe accent — used as a subtle decorative element */
+.barber-stripe {
+  background: repeating-linear-gradient(
+    45deg,
+    var(--color-barber-red) 0px,
+    var(--color-barber-red) 8px,
+    white 8px,
+    white 16px,
+    var(--color-barber-blue) 16px,
+    var(--color-barber-blue) 24px,
+    white 24px,
+    white 32px
+  );
 }
