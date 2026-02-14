@@ -6,46 +6,46 @@ import { Container } from "@/components/ui/container";
 
 const slides = [
   {
-    title: "Haircuts",
-    subtitle: "Precision fades, buzz cuts and classic styles.",
+    title: "Hair Dressing",
+    subtitle: "Precision cuts, fades, styling and classic looks.",
     imageUrl: "/images/services/haircuts.jpg",
   },
   {
-    title: "Beard Services",
-    subtitle: "Trims, shaping, conditioning and dyeing.",
-    imageUrl: "/images/services/beard.jpg",
-  },
-  {
-    title: "Shaves & Grooming",
-    subtitle: "Straight razor shaves and hot towel treatments.",
+    title: "Massage",
+    subtitle: "Relaxing head, neck and body massage treatments.",
     imageUrl: "/images/services/shaves.jpg",
   },
   {
-    title: "Facial & Skin",
-    subtitle: "Full facials, threading and nose & ear waxing.",
+    title: "Pedicure",
+    subtitle: "Professional foot care and grooming services.",
     imageUrl: "/images/services/facial.jpg",
   },
   {
-    title: "Packages",
-    subtitle: "The Full Combo — haircut, shave, facial and massage.",
+    title: "Manicure",
+    subtitle: "Expert hand and nail care treatments.",
+    imageUrl: "/images/services/beard.jpg",
+  },
+  {
+    title: "Full Grooming",
+    subtitle: "The complete package — haircut, massage, pedicure and manicure.",
     imageUrl: "/images/services/packages.jpg",
   },
 ];
 
 // SEO keywords kept in markup for search engines
 const seoKeywords = [
-  "Eyebrow trimming",
-  "Groom packages",
-  "Head shave",
-  "Beard conditioning",
-  "Beard maintenance",
-  "Straight razor shave",
-  "Hot towel shave",
+  "Hair dressing",
+  "Massage",
+  "Pedicure",
+  "Manicure",
+  "Haircut",
   "Beard trim",
-  "Buzz cut",
-  "Beard dyeing",
-  "Hair colouring",
-  "Children's cuts",
+  "Grooming",
+  "Barber shop Johannesburg",
+  "Birnam barber",
+  "Melrose Crossing",
+  "Hair styling",
+  "Men's grooming",
 ];
 
 export function Services() {
@@ -97,7 +97,7 @@ export function Services() {
             <span className="block text-white">Services for You</span>
           </h2>
           <p className="mt-4 max-w-md text-base text-steel sm:text-lg">
-            From Haircuts to Skin Treatments, We&apos;ve Got You.
+            From Hair Dressing to Lifestyle Treatments, We&apos;ve Got You.
           </p>
         </motion.div>
 

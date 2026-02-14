@@ -9,7 +9,7 @@ export function About() {
     <section id="about" className="py-24 bg-charcoal/40">
       <Container>
         <SectionHeading
-          title="About Barber Studio"
+          title="About Noel's Barbershop & Lifestyle"
           subtitle="More than just a haircut"
         />
 
@@ -21,17 +21,16 @@ export function About() {
           className="mx-auto max-w-2xl space-y-5 text-center text-silver leading-relaxed"
         >
           <p>
-            Barber Studio was founded by Neshi with a simple goal: deliver
-            consistently excellent grooming in a space where every client feels
-            valued. Located on Corlett Drive in Illovo, Sandton, the studio has
-            built a loyal following through precision cuts, attention to detail,
-            and genuine hospitality.
+            Noel&apos;s Barbershop &amp; Lifestyle is your one-stop destination for
+            hair dressing, massage, pedicure and manicure services. Located at
+            Melrose Crossing on Delta Road in Birnam, Johannesburg, the shop
+            delivers quality grooming and lifestyle services in a welcoming
+            environment.
           </p>
           <p>
-            Whether you need a quick trim, a full combo, or a relaxing head
-            massage, Neshi and the team bring years of experience and a passion
-            for the craft to every appointment. Walk in or book on WhatsApp — the
-            chair is always ready.
+            Whether you need a fresh cut, a relaxing massage, or a full pedicure
+            and manicure, Noel and the team are ready to take care of you. Walk
+            in or book on WhatsApp — we look forward to seeing you.
           </p>
         </motion.div>
       </Container>

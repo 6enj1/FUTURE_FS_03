@@ -7,11 +7,11 @@ import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section-heading";
 
 const images = [
-  { src: "/images/storefront.webp", alt: "Barber Studio storefront" },
+  { src: "/images/storefront.webp", alt: "Noel's Barbershop & Lifestyle storefront" },
   { src: "/images/gallery-1.webp", alt: "Precision haircut" },
   { src: "/images/gallery-2.webp", alt: "Classic shave" },
   { src: "/images/gallery-3.webp", alt: "Beard grooming" },
-  { src: "/images/gallery-4.webp", alt: "Interior of Barber Studio" },
+  { src: "/images/gallery-4.webp", alt: "Interior of Noel's Barbershop & Lifestyle" },
   { src: "/images/gallery-5.webp", alt: "Barber at work" },
 ];
 
@@ -23,7 +23,7 @@ export function Gallery() {
       <Container>
         <SectionHeading
           title="Gallery"
-          subtitle="A look inside Barber Studio"
+          subtitle="A look inside Noel's Barbershop & Lifestyle"
         />
 
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4">

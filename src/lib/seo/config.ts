@@ -1,31 +1,31 @@
 export const siteConfig = {
-  name: "Barber Studio",
-  tagline: "Premium Grooming in Illovo, Sandton",
+  name: "Noel's Barbershop & Lifestyle",
+  tagline: "Hair, Grooming & Lifestyle in Birnam, Johannesburg",
   description:
-    "Precision cuts, shaves, grooming and facial services in Illovo, Sandton. Book easily on WhatsApp.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://barberstudio.co.za",
-  phone: "+27 65 980 5164",
-  whatsapp: "27659805164",
+    "Hair dressing, massage, pedicure and manicure services in Birnam, Johannesburg. Book easily on WhatsApp.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://noelsbarbershop.co.za",
+  phone: "+27 71 244 0822",
+  whatsapp: "27712440822",
   address: {
-    street: "1 Corlett Dr",
-    area: "Illovo",
-    city: "Sandton",
+    street: "Melrose Crossing, Delta Rd",
+    area: "Birnam",
+    city: "Johannesburg",
     region: "Gauteng",
     postalCode: "2196",
     country: "ZA",
   },
   rating: {
-    value: 5.0,
-    count: 11,
+    value: 3.7,
+    count: 3,
   },
   hours: [
-    { day: "Monday", open: "09:00", close: "19:00", label: "9am–7pm" },
-    { day: "Tuesday", open: "09:00", close: "19:00", label: "9am–7pm" },
-    { day: "Wednesday", open: "08:00", close: "19:00", label: "8am–7pm" },
-    { day: "Thursday", open: "08:00", close: "19:00", label: "8am–7pm" },
-    { day: "Friday", open: "08:00", close: "19:00", label: "8am–7pm" },
-    { day: "Saturday", open: "09:00", close: "18:00", label: "9am–6pm" },
-    { day: "Sunday", open: "09:00", close: "18:00", label: "9am–6pm" },
+    { day: "Monday", open: "08:00", close: "19:00", label: "8am–7pm" },
+    { day: "Tuesday", open: "08:00", close: "19:00", label: "8am–7pm" },
+    { day: "Wednesday", open: "08:00", close: "18:30", label: "8am–6:30pm" },
+    { day: "Thursday", open: "08:00", close: "19:30", label: "8am–7:30pm" },
+    { day: "Friday", open: "08:00", close: "20:00", label: "8am–8pm" },
+    { day: "Saturday", open: "08:00", close: "20:30", label: "8am–8:30pm" },
+    { day: "Sunday", open: "08:00", close: "19:00", label: "8am–7pm" },
   ],
 } as const;
 
@@ -48,8 +48,8 @@ export function getJsonLd() {
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: -26.1325,
-      longitude: 28.0575,
+      latitude: -26.1465,
+      longitude: 28.0665,
     },
     openingHoursSpecification: hours.map((h) => ({
       "@type": "OpeningHoursSpecification",
@@ -63,7 +63,7 @@ export function getJsonLd() {
       reviewCount: rating.count,
       bestRating: 5,
     },
-    priceRange: "R50–R400",
+    priceRange: "R50–R500",
   };
 }
 

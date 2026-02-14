@@ -17,29 +17,30 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://barberstudio.co.za"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://noelsbarbershop.co.za"
   ),
-  title: "Barber Studio | Barber Shop in Illovo, Sandton",
+  title: "Noel's Barbershop & Lifestyle | Barber Shop in Birnam, Johannesburg",
   description:
-    "Precision cuts, shaves, grooming and facial services in Illovo, Sandton. Book easily on WhatsApp.",
+    "Hair dressing, massage, pedicure and manicure services in Birnam, Johannesburg. Book easily on WhatsApp.",
   keywords: [
     "barber",
     "barber shop",
     "haircut",
-    "shave",
+    "hair dressing",
+    "massage",
+    "pedicure",
+    "manicure",
     "grooming",
-    "Illovo",
-    "Sandton",
+    "Birnam",
+    "Melrose Crossing",
     "Johannesburg",
-    "beard trim",
-    "facial",
   ],
   openGraph: {
-    title: "Barber Studio | Barber Shop in Illovo, Sandton",
+    title: "Noel's Barbershop & Lifestyle | Barber Shop in Birnam, Johannesburg",
     description:
-      "Precision cuts, shaves, grooming and facial services in Illovo, Sandton. Book easily on WhatsApp.",
-    url: "https://barberstudio.co.za",
-    siteName: "Barber Studio",
+      "Hair dressing, massage, pedicure and manicure services in Birnam, Johannesburg. Book easily on WhatsApp.",
+    url: "https://noelsbarbershop.co.za",
+    siteName: "Noel's Barbershop & Lifestyle",
     locale: "en_ZA",
     type: "website",
     images: [
@@ -47,15 +48,15 @@ export const metadata: Metadata = {
         url: "/images/storefront.webp",
         width: 1200,
         height: 630,
-        alt: "Barber Studio in Illovo, Sandton",
+        alt: "Noel's Barbershop & Lifestyle in Birnam, Johannesburg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Barber Studio | Barber Shop in Illovo, Sandton",
+    title: "Noel's Barbershop & Lifestyle | Barber Shop in Birnam, Johannesburg",
     description:
-      "Precision cuts, shaves, grooming and facial services in Illovo, Sandton.",
+      "Hair dressing, massage, pedicure and manicure services in Birnam, Johannesburg.",
     images: ["/images/storefront.webp"],
   },
   robots: {

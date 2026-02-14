@@ -22,7 +22,7 @@ export async function sendInquiryEmail(data: InquiryData): Promise<boolean> {
   });
 
   const html = `
-    <h2>New Inquiry — Barber Studio</h2>
+    <h2>New Inquiry — Noel's Barbershop & Lifestyle</h2>
     <p><strong>Name:</strong> ${escapeHtml(data.name)}</p>
     <p><strong>Phone:</strong> ${escapeHtml(data.phone)}</p>
     ${data.email ? `<p><strong>Email:</strong> ${escapeHtml(data.email)}</p>` : ""}
@@ -35,7 +35,7 @@ export async function sendInquiryEmail(data: InquiryData): Promise<boolean> {
     from: FROM_EMAIL || SMTP_USER,
     to: TO_EMAIL,
     replyTo: data.email || undefined,
-    subject: `New inquiry from ${data.name} — Barber Studio`,
+    subject: `New inquiry from ${data.name} — Noel's Barbershop & Lifestyle`,
     html,
   });
 

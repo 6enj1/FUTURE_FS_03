@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { siteConfig } from "@/lib/seo/config";
 
 const WHATSAPP_URL =
-  "https://wa.me/27659805164?text=Hi%20Barber%20Studio%2C%20I%27d%20like%20to%20book%20an%20appointment.";
+  "https://wa.me/27712440822?text=Hi%20Noel%27s%20Barbershop%2C%20I%27d%20like%20to%20book%20an%20appointment.";
 
 function getTodayHours(): string {
   const days = [
@@ -57,7 +57,7 @@ export function Hero() {
             transition={{ duration: 0.7, ease: "easeOut" }}
           >
             <p className="mb-4 text-sm font-medium tracking-widest text-silver uppercase sm:text-base">
-              Welcome to Barber Studio.
+              Welcome to Noel&apos;s Barbershop &amp; Lifestyle.
             </p>
 
             <h1 className="hero-headline font-bold leading-[0.9] tracking-tight">
@@ -79,7 +79,7 @@ export function Hero() {
             <InfoBlock
               icon={<MapPinIcon />}
               label="Address"
-              value="1 Corlett Dr, Illovo, Sandton"
+              value="Melrose Crossing, Delta Rd, Birnam"
             />
             <InfoBlock
               icon={<ClockIcon />}
@@ -89,7 +89,7 @@ export function Hero() {
             <InfoBlock
               icon={<PhoneIcon />}
               label="Phone"
-              value="+27 65 980 5164"
+              value="+27 71 244 0822"
             />
           </div>
 

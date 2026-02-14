@@ -26,7 +26,7 @@ export function Location() {
       <Container>
         <SectionHeading
           title="Location & Hours"
-          subtitle="Find us on Corlett Drive, Illovo"
+          subtitle="Find us at Melrose Crossing, Birnam"
         />
 
         <div className="grid gap-8 lg:grid-cols-2">
@@ -39,14 +39,14 @@ export function Location() {
             <div className="mb-8">
               <h3 className="text-lg font-semibold text-mist mb-2">Address</h3>
               <p className="text-silver">
-                1 Corlett Dr, Illovo, Sandton, 2196
+                Melrose Crossing, Delta Rd, Birnam, Johannesburg, 2196
               </p>
               <p className="text-silver">South Africa</p>
               <a
-                href="tel:+27659805164"
+                href="tel:+27712440822"
                 className="mt-2 inline-block text-barber-red hover:text-barber-red/80 transition-colors"
               >
-                +27 65 980 5164
+                +27 71 244 0822
               </a>
             </div>
 
@@ -95,14 +95,14 @@ export function Location() {
             className="overflow-hidden rounded-xl border border-silver/10 bg-charcoal/30 min-h-[400px]"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.8!2d28.057!3d-26.132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s1+Corlett+Dr%2C+Illovo%2C+Sandton%2C+2196!5e0!3m2!1sen!2sza!4v1700000000000"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.8!2d28.066!3d-26.146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sMelrose+Crossing%2C+Delta+Rd%2C+Birnam%2C+Johannesburg%2C+2196!5e0!3m2!1sen!2sza!4v1700000000000"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: 400 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Barber Studio location on Google Maps"
+              title="Noel's Barbershop & Lifestyle location on Google Maps"
             />
           </motion.div>
         </div>

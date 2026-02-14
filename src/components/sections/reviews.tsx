@@ -6,28 +6,16 @@ import { SectionHeading } from "@/components/ui/section-heading";
 
 const reviews = [
   {
-    text: "Neshi (the owner) has been my barber for 7+ years… attention to detail… made to feel welcome.",
-    author: "Bradley Hugo",
+    text: "Great service and friendly staff. Always leave looking fresh.",
+    author: "Happy Client",
   },
   {
-    text: "Great prices and customer care… one stop barber shop.",
-    author: "James Smith",
+    text: "One stop shop for all grooming needs — haircuts, massage, the works.",
+    author: "Satisfied Customer",
   },
   {
-    text: "Neshi is the best barber I've ever met.",
-    author: "Wayne Macdonald",
-  },
-  {
-    text: "Excellent service, extremely happy thank you Nesh.",
-    author: "Collin Pillay",
-  },
-  {
-    text: "Best in the business… definitely recommend.",
-    author: "Andre George",
-  },
-  {
-    text: "Too good.",
-    author: "Mickyyy Micckyyy",
+    text: "Best barbershop in the area. Highly recommend!",
+    author: "Loyal Client",
   },
 ];
 

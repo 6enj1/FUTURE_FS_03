@@ -1,6 +1,6 @@
-Hi Neshi,
+Hi Noel,
 
-I noticed Barber Studio doesn’t have a website yet, so I built one as a demo while I’m building my portfolio. The idea was to make it easy for people to find you online, see what you offer, and book quickly from their phones.
+I noticed Noel's Barbershop & Lifestyle doesn't have a website yet, so I built one as a demo while I'm building my portfolio. The idea was to make it easy for people to find you online, see what you offer, and book quickly from their phones.
 
 What the website includes:
 	•	Clean, modern design that looks good on mobile and desktop
@@ -11,7 +11,7 @@ What the website includes:
 	•	Optional contact form + Google Maps
 
 Why it helps:
-Most people search “barber near me” and decide fast. A website makes you look more professional, answers the common questions quickly, and pushes people to book on WhatsApp instead of leaving.
+Most people search "barber near me" and decide fast. A website makes you look more professional, answers the common questions quickly, and pushes people to book on WhatsApp instead of leaving.
 
 If you like it, we can keep it close to what I made or adjust it to your exact style (photos, wording, colours, extra sections, anything).
 

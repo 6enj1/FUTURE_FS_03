@@ -8,14 +8,13 @@ import { Button } from "@/components/ui/button";
 
 const serviceOptions = [
   "Haircut",
+  "Hair Dressing",
+  "Massage",
+  "Pedicure",
+  "Manicure",
   "Shave",
-  "Nose Wax",
-  "Ear Wax",
-  "Eyebrows Threading",
-  "Full Face",
-  "Full Facial",
-  "Head Massage",
-  "Full Combo",
+  "Beard Trim",
+  "Full Grooming",
 ];
 
 const dayOptions = [
@@ -40,6 +39,7 @@ const timeOptions = [
   "4:00 PM",
   "5:00 PM",
   "6:00 PM",
+  "7:00 PM",
 ];
 
 const inputClasses =
@@ -70,14 +70,14 @@ function WhatsAppBooking() {
   const [name, setName] = useState("");
 
   function buildWhatsAppUrl() {
-    const parts = ["Hi Barber Studio"];
+    const parts = ["Hi Noel's Barbershop"];
     if (service) parts.push(`I'd like to book a ${service}`);
     if (day && time) parts.push(`on ${day} at ${time}`);
     else if (day) parts.push(`on ${day}`);
     if (name) parts.push(`My name is ${name}`);
 
     const text = parts.join(", ") + ".";
-    return `https://wa.me/27659805164?text=${encodeURIComponent(text)}`;
+    return `https://wa.me/27712440822?text=${encodeURIComponent(text)}`;
   }
 
   return (
